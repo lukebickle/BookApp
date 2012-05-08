@@ -31,7 +31,7 @@ class BooksController < ApplicationController
       format.json { render json: @book }
     end
   end
-
+#Added text to include something to commit to git.
   # GET /books/1/edit
   def edit
     @book = Book.find(params[:id])
